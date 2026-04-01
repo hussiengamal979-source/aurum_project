@@ -3,6 +3,54 @@
     padding: 0;
 }
 
+
+
+
+.navbar{
+    background-color: #1a140f;
+    color: white;
+    height: 60px;
+}
+.navbar-nav{
+    margin-right: 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.navbar.fixed-top {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    background-color: #1a140f;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btn-book {
+    background-color: #c5a059 !important; 
+    color: #000 !important;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 4px 15px;
+    font-size: 13px;
+    border: none;
+    transition: 0.3s;
+} 
+
+.navbar-brand {
+    letter-spacing: 5px !important;
+    margin-left: 23px !important;
+    font-size: 30px !important;
+        font-family: 'Segoe UI', sans-serif !important;
+
+}
+.navbar-brand span {
+color: #d1ac4e;
+}
+
+
+
+
 .location-container {
     display: flex;
     width: 100%;
